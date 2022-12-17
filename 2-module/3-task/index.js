@@ -2,14 +2,14 @@ let calculator = {
   a: null,
   b: null,
   read(a, b) {
-    calculator.a = a;
-    calculator.b = b;
+    this.a = a;
+    this.b = b;
   },
   sum() {
-    return calculator.a + calculator.b 
+    return this.a + this.b 
   },
   mul() {
-    return calculator.a * calculator.b
+    return this.a * this.b
   }
 };
 
